@@ -17,9 +17,9 @@ let options;
 // const BINARY_URL = 'https://raw.githubusercontent.com/particl/particl-desktop/master/modules/clientBinaries/clientBinaries.json';
 
 // dev
-// const BINARY_URL = 'https://raw.githubusercontent.com/particl/particl-desktop/develop/modules/clientBinaries/clientBinaries.json';
-const branch = require('../../package.json').branch.replace('-', '/');
-const BINARY_URL = 'https://raw.githubusercontent.com/particl/particl-desktop/' + branch + '/modules/clientBinaries/clientBinaries.json';
+const BINARY_URL = 'https://raw.githubusercontent.com/cekongsb/particl-desktop/dev/modules/clientBinaries/clientBinaries.json';
+// const branch = require('../../package.json').branch.replace('-', '/');
+// const BINARY_URL = 'https://raw.githubusercontent.com/particl/particl-desktop/' + branch + '/modules/clientBinaries/clientBinaries.json';
 console.log(BINARY_URL)
 
 //const ALLOWED_DOWNLOAD_URLS_REGEX = new RegExp('*', 'i');
