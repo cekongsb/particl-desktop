@@ -49,7 +49,7 @@
               "url": "https://github.com/cekongsb/particl-core/releases/download/dev/particl-dev-x86_64-linux-gnu_nousb.tar.gz",
               "type": "tar",
               "sha256": "354f089a3ef5fd77602939118e4ea913375aed104f72b90a42d9aa86345d1315",
-              "bin": "particl-dev/bin/particld"
+              "bin": "particl-dev-x86_64-linux-gnu_nousb/bin/particld"
             },
             "bin": "particld",
             "commands": {
